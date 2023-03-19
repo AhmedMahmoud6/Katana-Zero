@@ -1,0 +1,3176 @@
+fileFormatVersion: 2
+guid: 36f8c7da2c72dc94caa519e0ab7abaf1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zeroo_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 954
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34fb438f41b1d9489146d1e9cf19d73
+      internalID: 1110392122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 954
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d8a64716bab1247b398e9a3aa9db12
+      internalID: 947625610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 954
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4a23b36b124984c91166b6ea7c07e7
+      internalID: -30300821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 954
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3c98365dfb9e045804974fc37c191c
+      internalID: 665239864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 954
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01102bf56b0396245bfa2a3079aedcd9
+      internalID: -2077615416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 954
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d468716266f1334e9a802189c919f11
+      internalID: -1299246774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 954
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eff186091286004996394adcf8807ec
+      internalID: -1375927825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_7
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 954
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d6bdb11755e924ab0b8631b8e65da6
+      internalID: -2092328507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 954
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375beb1e5d5761647b488525aa9bd3ac
+      internalID: 1820423523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 954
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726f1a2f192ad7b4b8c2d92ccb2de6da
+      internalID: -510260631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 954
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4c486e640e14640ae55daa131aa484
+      internalID: 2037276968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_11
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 954
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b90a5e38851684ba314e0989859efd
+      internalID: -1574285789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_12
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 954
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd36a87f77e7f46a6e066749301913
+      internalID: 1125533720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_13
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 954
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755107cb7e7c3514db6980fca7535b9b
+      internalID: -1415454121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_14
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 954
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708538813030a4646a712970de1abb20
+      internalID: 1127599147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_15
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 954
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a90cc3863bb43147838ff5da0eeab44
+      internalID: -837536729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_16
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 954
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dff4a43c40b78f45966cbf6d31e0f5e
+      internalID: -143458844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_17
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 954
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da78f1552b6f9ea4e919fad0a2424620
+      internalID: 1794307207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 899
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8a582d84cc9c54ba6994051ec54644
+      internalID: -1890852142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 899
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc8949f4e66844c9e7de7141dbf384
+      internalID: -23180316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 899
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9001c7d07c817ee4598039442745c8f3
+      internalID: 1552837217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_37
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 899
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a1f96bce4c5784981579e1bc70bfff
+      internalID: -1056922653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_38
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 899
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245e54390e1626d49a1da1b6cfc4c1e8
+      internalID: -1688589725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 899
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85edf0a31ec8f6499c74790bd001c3c
+      internalID: 1053786926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 899
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fa88967fb9ca44e8b6c597f4160789
+      internalID: -1795502320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_41
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 899
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8733091e645954b4f939ab95926aeaaf
+      internalID: 1834585644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_42
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 899
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eba845be45197c4c808fbedd4e3e955
+      internalID: -631099390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_43
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 899
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dafafb8540fd7c439f32f528f137db9
+      internalID: 1585802749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 844
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b92e0fb58feb84a9237d957b7ffeef
+      internalID: 993282132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_48
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 844
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a67428d1070e4b48b611b10cf3e25e6
+      internalID: -1666920956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_49
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 842
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250efee65d690014b95a76cba6a96adb
+      internalID: 636981922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_50
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 844
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6de76ab667fad409bb93bb7cb561f8
+      internalID: 1752054614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_51
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 844
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7c72bb6943937499bb3e05f20e7b31
+      internalID: 438277678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_58
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 792
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f119bb227689d459f7affebf9e7706
+      internalID: 1821344598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_59
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 792
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e25d55928e4efe4bb00022b50d12f8e
+      internalID: 546036708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 792
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1192b9f43e51343b9cb198bc4f1a29
+      internalID: 1496765083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 792
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395662bc103828843a2a0ca4318b6cfb
+      internalID: 1494528170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_62
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 792
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845fa9cf7daf59a4d9cd0338d52472f6
+      internalID: -1421988149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_63
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 792
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfb40a3e8f218a4ba9d3648059c9d0c
+      internalID: -708999635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_64
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 792
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1033cf52c2bbe43a255c00f13758c3
+      internalID: 1796775446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_67
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 722
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1706bedd2a90c0d46869da8bff105e61
+      internalID: 1299532654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_68
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 722
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30304e6065a42049bf9fa635278e942
+      internalID: -326991671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 722
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f12aad117f857843bddbc571590ea6a
+      internalID: -723041281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_70
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 722
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d469cd0c9554baa46a1c6eb60d813ae6
+      internalID: -431574514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 722
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939612ebe50de8742b09833d24733e12
+      internalID: 1490298539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_72
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 722
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bf6e5ac88cab6489513c500038b7d4
+      internalID: 183093338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_73
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 722
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b845c96b5d6ce744981b8a9ac699ea33
+      internalID: -1186561101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_74
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 722
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08591f6d08cc26d4886fe44573fc7a1e
+      internalID: -1774016289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_80
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 646
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e987b285b1fbde4da38913d8221bc6a
+      internalID: 194443492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 658
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113e1356be6c40142a43b7615567366f
+      internalID: 1243687097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_82
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 646
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c261e5f2b5643a444b9c28df700a2321
+      internalID: -539809468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 652
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c888faf66b322f1429f3ece1b4b39af1
+      internalID: 171363131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_96
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 586
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4baa9fd1d335c409a5a7beafb61420
+      internalID: 545225760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_97
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 586
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3a8cfcbe16f4849890127b0c834cd6
+      internalID: 1186222281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 586
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f094d5b7d27738b47bfa730ae93c05c0
+      internalID: 1720631987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_99
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 586
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d73267fb033b8142ab0fbcd759aad3f
+      internalID: 1593880027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_100
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 586
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d072d80c459f2f43839ce2de5938027
+      internalID: 2146243270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_101
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 586
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25885da09d5bcb44aa50d6220bcee8fd
+      internalID: 371839081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_102
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 586
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aa7245912417543b82ba4841b2a017
+      internalID: 951139421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_103
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 586
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a65151ccc030aa4d97c0da5a11a120e
+      internalID: 2062898782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_104
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 586
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd923bb65c51e046ab58538e0345d5a
+      internalID: 4007126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_105
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 586
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1978ac3643b43754c93a6df651daff6e
+      internalID: 1163003040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_109
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 521
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960f6cbbabe9ef84895652d86d408f88
+      internalID: 961785385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_110
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 521
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401026fd8937137459bfe5fc7843c6f8
+      internalID: 164440082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_111
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 521
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a312372d5ac0e4bb36487045a0eefc
+      internalID: 746065725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_112
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 521
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfb4208eeaef7547868e5c5d0338d9d
+      internalID: -275696611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_113
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 521
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe2f5f11adb68c4aac6d241cfa3e69d
+      internalID: -2137514107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_114
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 521
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd24efc07268fb04f93a9f0c20582dd6
+      internalID: 1374906429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_115
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 521
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4118ca5eee52fd408e0a41fb919435d
+      internalID: 1107091026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_116
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 521
+        width: 86
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf07a3176fe6f444846d30e1121dce8
+      internalID: -518919652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_132
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 459
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6080a77a0f153949a48351c0c01eec0
+      internalID: -1194059733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_133
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 459
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c775176edcfec1144bae8ea0889e232d
+      internalID: -2038688403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_134
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 459
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41298dec5b0e3ed428524a9e0f30abd9
+      internalID: 240150147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_135
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 459
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a62a7bb73b48142b27c2768987e1af
+      internalID: 1201670213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_136
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 459
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6351f0aa355c54f97a692239ddadb0
+      internalID: -464717006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_137
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 459
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c00fb68f058848478435a20df4510b3
+      internalID: 394390084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_142
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 399
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c345356e5c14aa438bee59823850784
+      internalID: 1493053134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_143
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 399
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbe8bedee4a01a4ca6cc038c2d34e4c
+      internalID: -1864322927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_144
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 399
+        width: 55
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8433bdc1537df86488410b0df2a486e6
+      internalID: 310731666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_145
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 399
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd9e7d3f4b853f45b4ff054ae59be54
+      internalID: -2054196339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_146
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 399
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad409585cb40964eb1b0e369ddf5442
+      internalID: -973070498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_147
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 399
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6b689a5993ef044a79d1cd5a013dea
+      internalID: -530178705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_157
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 343
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf3bafc93d2c1d419d9e3fb5b8271c7
+      internalID: 847125291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_158
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 343
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714ad8bb40101084e90a7a445cc4feef
+      internalID: 804625820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_159
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 343
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90a62c2b2109b7489b7bab5a9c2639c
+      internalID: -2119243901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_160
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 343
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f35dd83f91c7074e8fe5515f6d4d2dd
+      internalID: -490424090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_161
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 343
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb702e3346094804e9d8a781db85f2bb
+      internalID: -1848753936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_162
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 343
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b283e85fb70d345a40f06c2ab35dc7
+      internalID: -1500094590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_163
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 343
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731b6fcb5ae65ea4186da01e4124b15f
+      internalID: 1422777151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_164
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 343
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7349037bc921c4846ac98595a33cd43a
+      internalID: -159285549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_165
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 343
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f84decb2994514498e141f44aabff6
+      internalID: -1207585536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_166
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 343
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f19dd605f44a40808352a0e4f9ff8
+      internalID: -478035303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_172
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 287
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cae14abb010ff747adfd3a8d5cc8f3d
+      internalID: -714760657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_173
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 287
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d26c4b5ddc8614e9885ed4e8db38de
+      internalID: -553504565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_174
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 287
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10766ecf40e031242a3ac6337fb3cd86
+      internalID: 1172118940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_175
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 287
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9596133559227c46b8a417d9d6d6c9b
+      internalID: -1212834736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_176
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 287
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f13973c444eed47bc1d2f6c4e7d52a
+      internalID: 2146601521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_177
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 287
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ee683e68ec23945b11883e4f259435
+      internalID: -853416219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_178
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 287
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578e2af8fc2076d45a1657ea96d06df8
+      internalID: 2006061518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_179
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 287
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514591a27d82b0c43822d39cc6159018
+      internalID: 332277573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_180
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 287
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070110b40b7843a409cd794e2d874726
+      internalID: -1196880510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_191
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 224
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08b142e5f790364b8e8541305672840
+      internalID: 1503896620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_192
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 224
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378f000c24dea8a418353d8b73474781
+      internalID: -389499673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_193
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 224
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78643cc2f10839c40a1635405678bf65
+      internalID: 377751201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_194
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 224
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959b3778c3a6ab646a27a87975ed5e86
+      internalID: -1604795600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_195
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 224
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4cdda269099b54ba542c7ebe7d0976
+      internalID: 1038292959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_196
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 224
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece7cebaf2cf4c942b5a33d96955d90c
+      internalID: 91646045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_197
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 224
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65204410d5ee7d046b298d60adaabd25
+      internalID: -970327161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_198
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 224
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eaad3c404c5c649bc6c614446e2a29
+      internalID: 327721046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_199
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 224
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9b1f2c0a92a80468a1c9c27ff6cdaa
+      internalID: 50358271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_209
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 161
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542853378db002c458f588ae7a59431f
+      internalID: -1752919897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_210
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 161
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9541fe57d87dd4c835b10b9404e1be
+      internalID: 712838507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_211
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 161
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28a128aaff37ac40a7e27c392117e56
+      internalID: -475602040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_212
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 161
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5139841c56cf841bc1823f3bef0afd
+      internalID: 1956167406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_213
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 161
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f6ac5a06ad5774fa3bc4a7b5c915a2
+      internalID: -968423446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_214
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 161
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc97996f8d9810b4db9609af29bc4a96
+      internalID: 1197220236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_215
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 161
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ab3e5f8724ffe4d934d0dc13bb5196
+      internalID: 35219189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_216
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 161
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921339637b4fc9f4fb2a69dd1d7ad520
+      internalID: 1598114320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_217
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 161
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3229275e6be6e0248a5b86fe78573139
+      internalID: 1885901590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_218
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 161
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9319cc43438974f45a9f98c7ab278a7b
+      internalID: 1401256802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_219
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 161
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e392ffc313721cd4688ebc4e963ca517
+      internalID: -981572192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_227
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 100
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80050b83a03bca748a19d774e0615f5d
+      internalID: -96110556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_228
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 100
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017f84fdd9606fa45811a7ca7a02530e
+      internalID: 1128268379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_229
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 100
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7020ba8145719044380a025ba71fee58
+      internalID: 58086970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_230
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 100
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7639942771571da4da51c8c343cfdc28
+      internalID: 2114630249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_231
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 100
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c5fb8508189e4aa107255206db6c0
+      internalID: 2003838143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_232
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 100
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6b8f8b22afe9a4eb9c9b2808fc9754
+      internalID: -857434781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_233
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 100
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71b31f1485c9ca4db4f29ea3ad5596e
+      internalID: -910851975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_234
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 100
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c506b3fb2c97247a0f329538ae06c4
+      internalID: 1670403778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_18
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 521
+        width: 97
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c802f284b550d4b9fb504aa315462a
+      internalID: 434443508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 521
+        width: 99
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcd0e6d29a67af4191e50e2dc08253a
+      internalID: 1889762672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_20
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 521
+        width: 98
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cb2c7dfa30b8a47a416e7b441c0bf2
+      internalID: -1263958740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeroo_21
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 521
+        width: 84
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c661b0452965b5948a483f722f378e23
+      internalID: -461680300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Zeroo_10: 2037276968
+      Zeroo_228: 1128268379
+      Zeroo_17: 1794307207
+      Zeroo_75: 1184341532
+      Zeroo_143: -1864322927
+      Zeroo_112: -275696611
+      Zeroo_48: -1666920956
+      Zeroo_22: 1035721059
+      Zeroo_162: -1500094590
+      Zeroo_190: 1549454119
+      Zeroo_194: -1604795600
+      Zeroo_52: -1826301860
+      Zeroo_122: 1690313870
+      Zeroo_99: 1593880027
+      Zeroo_117: 606039992
+      Zeroo_229: 58086970
+      Zeroo_89: 149712529
+      Zeroo_251: -443454474
+      Zeroo_78: 693346317
+      Zeroo_37: -1056922653
+      Zeroo_209: -1752919897
+      Zeroo_43: 1585802749
+      Zeroo_73: -1186561101
+      Zeroo_31: -1245316546
+      Zeroo_97: 1186222281
+      Zeroo_130: -1241160885
+      Zeroo_244: -1923851544
+      Zeroo_137: 394390084
+      Zeroo_187: -332830137
+      Zeroo_134: 240150147
+      Zeroo_196: 91646045
+      Zeroo_233: -910851975
+      Zeroo_246: 1110354296
+      Zeroo_157: 847125291
+      Zeroo_181: -35394950
+      Zeroo_58: 1821344598
+      Zeroo_132: -1194059733
+      Zeroo_9: -510260631
+      Zeroo_176: 2146601521
+      Zeroo_38: -1688589725
+      Zeroo_231: 2003838143
+      Zeroo_250: 202738398
+      Zeroo_158: 804625820
+      Zeroo_139: -591467951
+      Zeroo_193: 377751201
+      Zeroo_174: 1172118940
+      Zeroo_236: -1200395991
+      Zeroo_2: -30300821
+      Zeroo_41: 1834585644
+      Zeroo_198: 327721046
+      Zeroo_54: -1345493330
+      Zeroo_219: -981572192
+      Zeroo_206: -730860793
+      Zeroo_14: 1127599147
+      Zeroo_91: 1328717190
+      Zeroo_94: -1174478855
+      Zeroo_167: 2100243243
+      Zeroo_222: -897190517
+      Zeroo_154: 1251745573
+      Zeroo_148: 666543973
+      Zeroo_77: 1107344565
+      Zeroo_61: 1494528170
+      Zeroo_163: 1422777151
+      Zeroo_70: -431574514
+      Zeroo_56: 131583019
+      Zeroo_258: 104775579
+      Zeroo_59: 546036708
+      Zeroo_240: 837863279
+      Zeroo_27: -2047769378
+      Zeroo_16: -143458844
+      Zeroo_44: 1591800166
+      Zeroo_95: -25759434
+      Zeroo_68: -326991671
+      Zeroo_26: -1904683211
+      Zeroo_238: 1257012273
+      Zeroo_200: -1842644794
+      Zeroo_60: 1496765083
+      Zeroo_160: -490424090
+      Zeroo_168: -1586311884
+      Zeroo_13: -1415454121
+      Zeroo_102: 951139421
+      Zeroo_159: -2119243901
+      Zeroo_108: -339010007
+      Zeroo_146: -973070498
+      Zeroo_105: 1163003040
+      Zeroo_101: 371839081
+      Zeroo_129: 1440852408
+      Zeroo_151: 725001494
+      Zeroo_186: 1992735576
+      Zeroo_11: -1574285789
+      Zeroo_33: -2117512685
+      Zeroo_215: 35219189
+      Zeroo_226: 1613858451
+      Zeroo_253: 391531162
+      Zeroo_161: -1848753936
+      Zeroo_249: 292488815
+      Zeroo_24: -206050240
+      Zeroo_45: -1439334860
+      Zeroo_169: 223319693
+      Zeroo_189: 1532483733
+      Zeroo_247: 756108575
+      Zeroo_224: -2146079456
+      Zeroo_205: 1785209875
+      Zeroo_84: -269325959
+      Zeroo_127: -26904644
+      Zeroo_234: 1670403778
+      Zeroo_12: 1125533720
+      Zeroo_30: -1405244146
+      Zeroo_107: -1360546418
+      Zeroo_81: 1243687097
+      Zeroo_83: 171363131
+      Zeroo_218: 1401256802
+      Zeroo_49: 636981922
+      Zeroo_243: -1094977592
+      Zeroo_109: 961785385
+      Zeroo_20: -1263958740
+      Zeroo_55: 1524606092
+      Zeroo_223: 70080728
+      Zeroo_149: 250868451
+      Zeroo_217: 1885901590
+      Zeroo_121: 1839479651
+      Zeroo_116: -518919652
+      Zeroo_46: -914093433
+      Zeroo_204: 1920575449
+      Zeroo_7: -2092328507
+      Zeroo_104: 4007126
+      Zeroo_92: -319866159
+      Zeroo_123: -1274721860
+      Zeroo_197: -970327161
+      Zeroo_170: -419204598
+      Zeroo_15: -837536729
+      Zeroo_179: 332277573
+      Zeroo_232: -857434781
+      Zeroo_111: 746065725
+      Zeroo_103: 2062898782
+      Zeroo_235: -935322443
+      Zeroo_69: -723041281
+      Zeroo_53: -315491172
+      Zeroo_42: -631099390
+      Zeroo_191: 1503896620
+      Zeroo_201: -2060847518
+      Zeroo_19: 1889762672
+      Zeroo_119: 606246228
+      Zeroo_239: -1637533050
+      Zeroo_140: 897771809
+      Zeroo_85: 80086988
+      Zeroo_136: -464717006
+      Zeroo_126: -120317755
+      Zeroo_40: -1795502320
+      Zeroo_155: -1365822941
+      Zeroo_255: -942002884
+      Zeroo_96: 545225760
+      Zeroo_1: 947625610
+      Zeroo_66: 831309584
+      Zeroo_165: -1207585536
+      Zeroo_135: 1201670213
+      Zeroo_82: -539809468
+      Zeroo_18: 434443508
+      Zeroo_141: 845351119
+      Zeroo_199: 50358271
+      Zeroo_230: 2114630249
+      Zeroo_192: -389499673
+      Zeroo_225: 1155286274
+      Zeroo_47: 993282132
+      Zeroo_241: -165578213
+      Zeroo_208: 517715808
+      Zeroo_214: 1197220236
+      Zeroo_29: -1689333344
+      Zeroo_110: 164440082
+      Zeroo_32: -523895676
+      Zeroo_177: -853416219
+      Zeroo_142: 1493053134
+      Zeroo_93: 336406415
+      Zeroo_184: -1613330240
+      Zeroo_153: 1096730121
+      Zeroo_76: 828781024
+      Zeroo_88: 1989581318
+      Zeroo_86: 123566368
+      Zeroo_182: -2106181722
+      Zeroo_178: 2006061518
+      Zeroo_183: 1465100375
+      Zeroo_211: -475602040
+      Zeroo_98: 1720631987
+      Zeroo_145: -2054196339
+      Zeroo_188: -942642262
+      Zeroo_28: -1784213582
+      Zeroo_90: 1667617780
+      Zeroo_67: 1299532654
+      Zeroo_131: 995888974
+      Zeroo_172: -714760657
+      Zeroo_210: 712838507
+      Zeroo_57: 414903578
+      Zeroo_256: 164774446
+      Zeroo_213: -968423446
+      Zeroo_21: -461680300
+      Zeroo_34: -1890852142
+      Zeroo_207: 860704674
+      Zeroo_242: 1165648779
+      Zeroo_254: -2139746723
+      Zeroo_237: -1962114092
+      Zeroo_257: -1583771983
+      Zeroo_125: -1793986575
+      Zeroo_3: 665239864
+      Zeroo_152: -209986534
+      Zeroo_63: -708999635
+      Zeroo_65: -1875459183
+      Zeroo_195: 1038292959
+      Zeroo_62: -1421988149
+      Zeroo_212: 1956167406
+      Zeroo_5: -1299246774
+      Zeroo_72: 183093338
+      Zeroo_227: -96110556
+      Zeroo_147: -530178705
+      Zeroo_80: 194443492
+      Zeroo_124: -1176892900
+      Zeroo_120: 453833446
+      Zeroo_216: 1598114320
+      Zeroo_74: -1774016289
+      Zeroo_87: 1634474017
+      Zeroo_71: 1490298539
+      Zeroo_144: 310731666
+      Zeroo_164: -159285549
+      Zeroo_133: -2038688403
+      Zeroo_6: -1375927825
+      Zeroo_35: -23180316
+      Zeroo_25: -728854313
+      Zeroo_166: -478035303
+      Zeroo_51: 438277678
+      Zeroo_173: -553504565
+      Zeroo_36: 1552837217
+      Zeroo_150: 1885310611
+      Zeroo_138: -1942736128
+      Zeroo_156: -1932658653
+      Zeroo_4: -2077615416
+      Zeroo_221: -593282970
+      Zeroo_50: 1752054614
+      Zeroo_100: 2146243270
+      Zeroo_175: -1212834736
+      Zeroo_23: 1929994607
+      Zeroo_185: 697604773
+      Zeroo_245: 1863755597
+      Zeroo_0: 1110392122
+      Zeroo_39: 1053786926
+      Zeroo_64: 1796775446
+      Zeroo_106: -1118072610
+      Zeroo_79: -14430213
+      Zeroo_115: 1107091026
+      Zeroo_180: -1196880510
+      Zeroo_118: 1029837018
+      Zeroo_252: 1680761750
+      Zeroo_220: 1838864719
+      Zeroo_113: -2137514107
+      Zeroo_128: -156267686
+      Zeroo_171: 1035311606
+      Zeroo_248: 1771975858
+      Zeroo_202: 1101652280
+      Zeroo_203: -1271933345
+      Zeroo_8: 1820423523
+      Zeroo_114: 1374906429
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
