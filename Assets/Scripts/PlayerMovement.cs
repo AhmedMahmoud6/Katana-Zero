@@ -14,12 +14,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
-
+    public Animator anim;
+    float AnimationSpeed;
 
     private bool canDash = true;
     private bool isDashing;
-    private float dashingPower = 16f;
-    private float dashingTime = 0.2f;
+    private float dashingPower = 6f;
+    private float dashingTime = 0.3f;
     private float dashingCooldown = 1f;
 
 
@@ -33,13 +34,21 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-
+        if(IsGrounded())
+        {
+            anim.SetBool("Jump", false);
+        }
+        if (!IsGrounded())
+        {
+            anim.SetBool("Jump", true);
+        }
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x,jumpingPower);
+            anim.SetBool("Jump", true);
         }
-        if(Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
@@ -64,11 +73,13 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        AnimationSpeed = 0;
         if (Input.GetKey(KeyCode.D))
         {
+            AnimationSpeed = 0.5f;
             if (speed > 7)
             {
-                speed = 5;
+                AnimationSpeed = 1f;
             }
             else if (speed < 7)
             {
@@ -78,9 +89,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
+            AnimationSpeed = 0.5f;
             if (speed > 7)
             {
-                speed = 5;
+                AnimationSpeed = 1f;
             }
             else if (speed < 7)
             {
@@ -90,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.D)) { speed = 5f; }
         if (Input.GetKeyUp(KeyCode.A)) { speed = 5f; }
-
+        anim.SetFloat("Speed", AnimationSpeed);
     }
 
     private void FixedUpdate()
@@ -131,6 +143,7 @@ public class PlayerMovement : MonoBehaviour
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
+        anim.SetBool("Dash",true);
         rb.gravityScale = 0f;
         if(isRight)
         {
@@ -145,6 +158,7 @@ public class PlayerMovement : MonoBehaviour
         tr.emitting = false;
         rb.gravityScale = originalGravity;
         isDashing = false;
+        anim.SetBool("Dash", false);
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
