@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
+    private float speed = 5f;
     private float jumpingPower = 16f;
     private bool isFacingRight = true;
 
@@ -32,9 +32,10 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        horizontal = Input.GetAxisRaw("Horizontal");
 
-        if(Input.GetButtonDown("Jump") && IsGrounded())
+
+
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x,jumpingPower);
         }
@@ -59,6 +60,38 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    void Movement()
+    {
+        horizontal = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if (Input.GetKey(KeyCode.D))
+        {
+            if (speed > 7)
+            {
+                speed = 5;
+            }
+            else if (speed < 7)
+            {
+                speed += 0.2f;
+            }
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            if (speed > 7)
+            {
+                speed = 5;
+            }
+            else if (speed < 7)
+            {
+                speed += 0.2f;
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.D)) { speed = 5f; }
+        if (Input.GetKeyUp(KeyCode.A)) { speed = 5f; }
+
+    }
 
     private void FixedUpdate()
     {
@@ -67,7 +100,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        Movement();
     }
 
 
