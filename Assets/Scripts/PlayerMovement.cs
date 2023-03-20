@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 5f;
     private float jumpingPower = 16f;
     private bool isFacingRight = true;
-
+  
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -25,6 +25,10 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    public static bool attack = false;
+    public GameObject Slash;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -32,43 +36,12 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-
-
-        if(IsGrounded())
-        {
-            anim.SetBool("Jump", false);
-        }
-        if (!IsGrounded())
-        {
-            anim.SetBool("Jump", true);
-        }
-
-        if (Input.GetButtonDown("Jump") && IsGrounded())
-        {
-            rb.velocity = new Vector2(rb.velocity.x,jumpingPower);
-            anim.SetBool("Jump", true);
-        }
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
+        TotalDash();
         Flip();
-        if (Input.GetKey(KeyCode.S) && canDash && IsGrounded())
-        {
-            if(Input.GetKey(KeyCode.D))
-            {
-                StartCoroutine(Dash(true));
-            }
-
-
-            else if(Input.GetKey(KeyCode.A))
-            {
-                StartCoroutine(Dash(false));
-            }
-        }
+        Jump();
+        Attack();
 
     }
-
     void Movement()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -104,8 +77,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.A)) { speed = 5f; }
         anim.SetFloat("Speed", AnimationSpeed);
     }
-
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         if (isDashing)
         {
@@ -114,14 +86,10 @@ public class PlayerMovement : MonoBehaviour
 
         Movement();
     }
-
-
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
-
-
     private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
@@ -133,11 +101,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-
-
-
-
-
     private IEnumerator Dash(bool isRight)
     {
         canDash = false;
@@ -162,5 +125,64 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
+    void TotalDash()
+    {
+        if (isDashing)
+        {
+            return;
+        }
+        if (Input.GetKey(KeyCode.S) && canDash && IsGrounded())
+        {
+            if (Input.GetKey(KeyCode.D))
+            {
+                StartCoroutine(Dash(true));
+            }
+
+
+            else if (Input.GetKey(KeyCode.A))
+            {
+                StartCoroutine(Dash(false));
+            }
+        }
+    }
+    void Jump()
+    {
+        if (IsGrounded())
+        {
+            anim.SetBool("Jump", false);
+        }
+        if (!IsGrounded())
+        {
+            anim.SetBool("Jump", true);
+        }
+
+        if (Input.GetButtonDown("Jump") && IsGrounded())
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            anim.SetBool("Jump", true);
+        }
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+        }
+    }
+    void Attack()
+    {
+        if (Input.GetMouseButtonDown(0) && attack == false)
+        {
+            attack = true;
+            Slash.SetActive(true);
+            anim.SetTrigger("Attack");
+            StartCoroutine(AttackTimer());
+        }
+    }
+    IEnumerator AttackTimer()
+    {
+        yield return new WaitForSeconds(0.8f);
+        PlayerMovement.attack = false;
+        Slash.SetActive(false);
+    }
+
+
 
 }
