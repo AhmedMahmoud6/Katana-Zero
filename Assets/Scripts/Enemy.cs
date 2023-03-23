@@ -4,52 +4,33 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public Transform player;
     public SpriteRenderer sr;
+    public GameObject player;
+    public float speed;
 
-    float distance;
+    private float distance;
+    public float distanceBetween;
 
 
-    void Update()
+
+
+    private void Update()
     {
-        distance = Mathf.Abs(transform.position.x - player.position.x);
+        distance = Vector2.Distance(transform.position,player.transform.position);
 
-        //Debug.Log(Mathf.Abs(distance));
-        if (distance < 10 && distance > 2)
+
+        if(distance < distanceBetween)
         {
             StartCoroutine(enemyHold());
-
         }
     }
-    IEnumerator enemyHold()
-    {
-        yield return new WaitForSeconds(1);
-        if(transform.position.x > player.position.x)
+    
+        IEnumerator enemyHold()
         {
-            
+            yield return new WaitForSeconds(1);
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
-            sr.flipX = true;
-            if(distance < 2)
-            {
-                
-            }
-            else if(distance > 2)
-            {
-                transform.Translate(new Vector2(-0.02f, 0));
-            }
-            
-        }
-        if (transform.position.x < player.position.x)
-        {
-            sr.flipX = false;
-            if (distance !< 2)
-            {
-                Debug.Log("FOLLOW");
-                transform.Translate(new Vector2(0.2f, 0));
-            }
 
-            
-                
         }
-    }
+
 }
