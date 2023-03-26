@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,12 +9,11 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 5f;
     private float jumpingPower = 16f;
     public static bool isFacingRight = true;
-  
+
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private TrailRenderer tr;
     public Animator anim;
     float AnimationSpeed;
 
@@ -24,10 +24,8 @@ public class PlayerMovement : MonoBehaviour
     private float dashingCooldown = 1f;
 
 
-
     public static bool attack = false;
-    public GameObject Slash;
-
+    public GameObject slash;
 
     // Update is called once per frame
     void Update()
@@ -42,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
         Attack();
 
     }
+
     void Movement()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -116,9 +115,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(-transform.localScale.x * -dashingPower, 0f);
         }
-        tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
-        tr.emitting = false;
         rb.gravityScale = originalGravity;
         isDashing = false;
         anim.SetBool("Dash", false);
@@ -171,7 +168,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && attack == false)
         {
             attack = true;
-            Slash.SetActive(true);
+            slash.SetActive(true);
             anim.SetTrigger("Attack");
             StartCoroutine(AttackTimer());
         }
@@ -180,9 +177,7 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(0.8f);
         PlayerMovement.attack = false;
-        Slash.SetActive(false);
+        slash.SetActive(false);
     }
-
-
 
 }
